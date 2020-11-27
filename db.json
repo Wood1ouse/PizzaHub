@@ -24,7 +24,7 @@
       "name": "Pepperoni",
       "description": "Your choice of crust covered with our signature pizza sauce, real cheese made from mozzarella, and pepperoni. With a pepperoni in almost every bite, it's one of our most popular pizzas.",
       "relatedProductsId": [2, 4, 5],
-      "categoryId:": 1,
+      "categoryId": 1,
       "price": 4.99
     },
     {
@@ -33,7 +33,7 @@
       "name": "Sausage",
       "description": "Our signature pizza sauce layered with sausage and real cheese made from mozzarella for a taste you’ll crave. Your choice of crust.",
       "relatedProductsId": [1, 4, 5],
-      "categoryId:": 1,
+      "categoryId": 1,
       "price": 6.99
 
     },
@@ -43,7 +43,7 @@
       "name": "Cheese Pizza",
       "description": "Simple, yet simply delicious. Real cheese made from mozzarella on top of our signature pizza sauce with your choice of crust, then baked to a golden brown. It has just what you want, and nothing you don’t.",
       "relatedProductsId": [11, 13, 15],
-      "categoryId:": 1,
+      "categoryId": 1,
       "price": 3.99
     },
     {
@@ -52,7 +52,7 @@
       "name": "The Works",
       "description": "It’s everything you want on a pizza – and then some. A heaping helping of pepperoni, julienne-cut Canadian bacon, spicy Italian sausage, fresh-cut onions, crisp green peppers, mushrooms, ripe black olives, and real cheese made from mozzarella. When you’re hungry for a hearty pizza, the Works always works.",
       "relatedProductsId": [1, 5, 6],
-      "categoryId:": 2,
+      "categoryId": 2,
       "price": 7.99
     },
     {
@@ -61,7 +61,7 @@
       "name": "The Meats",
       "description": "A masterpiece of hearty, high-quality meats including pepperoni, savory sausage, real beef, hickory-smoked bacon, and julienne-cut Canadian bacon, all topped with real cheese made from mozzarella.",
       "relatedProductsId": [1, 4, 6],
-      "categoryId:": 2,
+      "categoryId": 2,
       "price": 5.99
     },
     {
@@ -70,7 +70,7 @@
       "name": "Meatball Pepperoni",
       "description": "Savory meatballs and pepperoni make for a tasty combination, especially when we add a three-cheese blend, and real cheese made from mozzarella on our original crust, then sprinkle it all with classic Italian seasoning for an extra dash of flavor.",
       "relatedProductsId": [1, 4, 5],
-      "categoryId:": 2,
+      "categoryId": 2,
       "price": 5.49
     },
     {
@@ -79,7 +79,7 @@
       "name": "Super Hawaiian",
       "description": "Get a taste of the tropics. This super delicious pizza is loaded with sweet, juicy pineapple tidbits, julienne-cut Canadian bacon, hickory-smoked bacon, a three-cheese blend, and real cheese made from mozzarella on our signature sauce and original fresh dough.",
       "relatedProductsId": [10, 12, 16],
-      "categoryId:": 2,
+      "categoryId": 2,
       "price": 6.49
     },
     {
@@ -88,7 +88,7 @@
       "name": "Ultimate Pepperoni",
       "description": "Just when you think our pepperoni pizza couldn’t get any tastier, we craft the ultimate masterpiece. Our original fresh dough is covered with signature pizza sauce, 30% more pepperoni than our traditional pie, a blend of Parmesan and Romano, and real cheese made from mozzarella, all sprinkled with classic Italian seasoning.",
       "relatedProductsId": [1, 4, 11],
-      "categoryId:": 2,
+      "categoryId": 2,
       "price": 8.49
     },
     {
@@ -97,7 +97,7 @@
       "name": "Zesty Italian Trio",
       "description": "A tasty trio of zesty Italian sausage, salami, and pepperoni, plus banana peppers, a three-cheese blend, and real cheese made from mozzarella on our signature sauce and original fresh dough. Sprinkled with classic Italian seasoning for an extra dash of flavor.",
       "relatedProductsId": [3, 10, 14],
-      "categoryId:": 2,
+      "categoryId": 2,
       "price": 5.99
     },
     {
@@ -106,7 +106,7 @@
       "name": "Fiery Buffalo Chicken",
       "description": "We’re bringing the heat with more of the bold buffalo flavor you love. Our original crust is covered in a new buffalo sauce with a hint of buttery richness and a tangy, craveable kick. Piled high with grilled chicken, hickory-smoked bacon, fresh-cut onions, and real cheese made from mozzarella.",
       "relatedProductsId": [7, 12, 16],
-      "categoryId:": 2,
+      "categoryId": 2,
       "price": 4.99
     },
     {
@@ -115,7 +115,7 @@
       "name": "Pepperoni, Sausage & Six Cheese",
       "description": "Featuring pepperoni, sausage and a generous six-cheese blend of real cheese made from Mozzarella, Romano, Parmesan, Asiago, Provolone, and Fontina. Finished with a blend of Italian herb seasonings. One taste and it may become your favorite, too.",
       "relatedProductsId": [1, 4, 8],
-      "categoryId:": 2,
+      "categoryId": 2,
       "price": 7.99
     },
     {
@@ -124,7 +124,7 @@
       "name": "BBQ Chicken Bacon",
       "description": "We had you at bacon, right? It gets even better. Smoky Southern-style BBQ sauce adds a tangy twist to this irresistible pizza topped with grilled chicken, hickory-smoked bacon, fresh-cut onions, and real cheese made from mozzarella. Round one up today.",
       "relatedProductsId": [7, 10, 16],
-      "categoryId:": 2,
+      "categoryId": 2,
       "price": 4.99
     },
     {
@@ -133,7 +133,7 @@
       "name": "Extra Cheesy Alfredo",
       "description": "Calling all cheese lovers! Your choice of crust covered in rich, creamy two-cheese Alfredo sauce topped with a blend of provolone, Asiago, Fontina, and real cheese made from mozzarella.",
       "relatedProductsId": [3, 11, 15],
-      "categoryId:": 3,
+      "categoryId": 3,
       "price": 5.99
     },
     {
@@ -142,7 +142,7 @@
       "name": "Garden Fresh",
       "description": "All your favorite veggies together on a delightfully delicious pizza. Loaded with crisp green peppers, fresh-cut onions, mushrooms, ripe black olives, vine-ripened Roma tomatoes, and real cheese made from mozzarella.",
       "relatedProductsId": [7, 10, 16],
-      "categoryId:": 3,
+      "categoryId": 3,
       "price": 4.49
     },
     {
@@ -151,7 +151,7 @@
       "name": "Tuscan Six Cheese",
       "description": "Experience the authentic taste of Italy! Layered with signature pizza sauce and an authentic blend of Parmesan, Romano, Asiago, Fontina, provolone, and real cheese made from mozzarella. Baked hot and fresh then finished with classic Italian seasoning.",
       "relatedProductsId": [3, 11, 13],
-      "categoryId:": 3,
+      "categoryId": 3,
       "price": 5.99
     },
     {
@@ -160,7 +160,7 @@
       "name": "Hawaiian BBQ Chicken",
       "description": "Aloha! You’re on island time with the Hawaiian BBQ Chicken pizza. Smothered in smoky BBQ sauce, it’s topped with grilled chicken, hickory-smoked bacon, real cheese made from mozzarella, plus fresh-cut onions, and sweet, juicy pineapple tidbits for a taste of the tropics.",
       "relatedProductsId": [7, 10, 12],
-      "categoryId:": 4,
+      "categoryId": 4,
       "price": 5.49
     }
   ]
