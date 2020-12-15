@@ -1,46 +1,111 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset=utf-8">
-    <title>Pizza Time</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel ="shortcut icon" href="style/icons/1384676.svg">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="css/style.css?v=<? echo rand(34, 234234234234); ?>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
-    <div class = "header">
-                <img class = "image" src="style/icons/logo.png"></img>
-            <nav>
-                <div class = "nav_link_promotions">
-                    <a href="#">Special promotions</a>
+    <div class="header">
+        <div class="header_logo">
+            <img src="img/logo.svg" alt="logo">
+            <span>Pizza HUB</span>
+        </div>
+        <div class="header_items">
+            <div class="header_item" id="header_mainPage" onclick="nav('/');">
+                <span><i class="fas fa-home"></i> Главная</span>
+            </div>
+            <div class="header_item" id="header_catalogPage" onclick="nav('#catalog');">
+                <span><i class="fas fa-clipboard-list"></i> Каталог</span>
+            </div>
+            <div class="header_item cart_header" id="header_cartPage" onclick="nav('#cart');">
+                <span><i class="fas fa-shopping-cart"></i><small id="cartCount">0</small></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider__wrapper">
+            <div class="slider__items">
+                <div class="slider__item">
+                    <div style="height: 500px; background: url(img/1.jpg);background-size: cover;"></div>
                 </div>
-                <div class = "nav_link_catalog">
-                    <a href="#">Pizza Catalog</a>
+                <div class="slider__item">
+                    <div style="height: 500px; background: url(img/2.jpeg);background-size: cover;"></div>
                 </div>
-                <div class = "pizza">
-                    <a href ="#">Pizza</a>
+                <div class="slider__item">
+                    <div style="height: 500px; background: url(img/3.jpeg);background-size: cover;"></div>
                 </div>
-                <div class = "nav_link_media">
-                    <a href="#">Social Media</a>
+                <div class="slider__item">
+                    <div style="height: 500px; background: url(img/4.jpeg);background-size: cover;"></div>
                 </div>
-            </nav>
-        <div class="shoppingCart">
-            <div class = "orderedPizza">3</div>
-            <button class = "orderButton">Order</button>
+            </div>
+        </div>
+        <a class="slider__control slider__control_prev" href="#" role="button"></a>
+        <a class="slider__control slider__control_next" href="#" role="button"></a>
+    </div>
+    <div class="page" id="mainPage">
+        <div class="products"></div>
+        <div class="stocks">
+            <div class="title">
+                <span>Акции</span>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="actionPage" style="display: none;"></div>
+    <div class="page" id="productPage" style="display: none;"></div>
+    <div class="page" id="catalogPage" style="display: none;">
+        <div class="products"></div>
+    </div>
+    <div class="page" id="сartPage" style="display: none;">
+        <div class="cart_title">
+            <span>Корзина пустая</span>
+        </div>
+    </div>
+    <div class="page" id="orderPage" style="display: none;">
+        <input type="text" class="input" id="name" placeholder="Ваше имя">
+        <input type="text" class="input" id="lastname" placeholder="Ваша фамилия">
+        <input type="text" class="input" id="address" placeholder="Ваш адрес">
+        <input type="email" class="input" id="email" placeholder="Ваш email">
+        <span style="margin-top: 10px;color: white">Телефон в формате +380-95-014-24-84 или +380 98 758 74 52</span>
+        <input type="tel" class="input" id="phone" placeholder="Ваш телефон">
+        <select id="typeOrder">
+            <option>Тип оплаты</option>
+            <option>Наличными</option>
+            <option>Выписать счет</option>
+        </select>
+        <button class="simple_btn" onclick="order()">Оформить заказ</button>
+    </div>
+
+    <div class="loader">
+        <div class="lds-dual-ring"></div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="footer">
+        <div class="corp">
+            <span>Copyright &copy; 2020 PizzaHub Corp.</span>
+        </div>
+        <div class="nav_footer">
+            <span><i class="fab fa-vk"></i> ВКонтакте</span>
+            <span><i class="fab fa-instagram"></i> Instagram</span>
+            <span><i class="fab fa-telegram-plane"></i> Telegram</span>
         </div>
 
 
-    </div>
-    <div id = "page" href = "#">
 
-    </div>
+    <script src="js/slider.js"></script></div>
+    <script src="js/cart.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/index.js"></script>
 
-
-
-<script src="script/index.js"></script>
-<script src="script/makeCategory.js"></script>
+    <script type="module">
+        import "./js/router.js";
+        import "./js/cart.js"
+        import "js/slider"
+    </script>
 </body>
 </html>
